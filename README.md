@@ -4,9 +4,6 @@ This is our submission for the Portfolio Construction Challenge. We built a simp
 strategy that picks 10 stocks every quarter from the Nifty 100 + Midcap 100 + Smallcap 100
 universe, based on price momentum and volatility, and backtested it from 2021 to 2025.
 
-Full writeup with reasoning, results, and limitations is in `Round2_Report.docx` - that's the
-main document, this README is just to help you run the code.
-
 ## Files
 
 - `data_loader.py` - downloads 5 years of stock price data
@@ -37,8 +34,6 @@ python strategy.py
 python backtest.py
 python metrics.py
 ```
-
-The first one takes a few minutes since it's downloading ~300 stocks.
 
 ## Results (short version)
 
