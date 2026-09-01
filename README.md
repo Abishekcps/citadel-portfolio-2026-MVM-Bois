@@ -35,13 +35,11 @@ python backtest.py
 python metrics.py
 ```
 
-## Results (short version)
+## Summary of result
 
 Started with 1 crore, ended with about 2.53 crore by end of 2025 (23.4% CAGR), vs Nifty 100's
 12.26%. Full numbers, benchmark comparison, and the out-of-sample test on Jan-Jun 2026 are in
 the report.
-
-## Known limitations
 
 - Used current index constituents, not historical ones, so there's some survivorship bias
 - One stock (ZYDUSLIFE.NS) couldn't be downloaded, probably a naming issue
